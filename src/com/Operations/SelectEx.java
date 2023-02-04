@@ -19,7 +19,7 @@ public class SelectEx {
 	ArrayList<person>plist=(ArrayList<person>) criteria.list();
 	System.out.println(plist);
 	for(person p:plist){
-		System.out.println(p);
+		System.out.println("person = "+p);
 	}
 	
 	}
